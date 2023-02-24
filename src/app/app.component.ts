@@ -17,7 +17,8 @@ export class AppComponent {
   autor: string = "";
   formato: string = "";
   strSalida: string = "";
-  @ViewChild("salida") sal: ElementRef;
+  @ViewChild("salida")
+  sal!: ElementRef;
 
   
 
